@@ -1,0 +1,8 @@
+E:\Aplicacion\DataLibrary\bin\Debug\DataLibrary.dll
+E:\Aplicacion\DataLibrary\bin\Debug\DataLibrary.pdb
+E:\Aplicacion\DataLibrary\bin\Debug\Dapper.dll
+E:\Aplicacion\DataLibrary\bin\Debug\Dapper.xml
+E:\Aplicacion\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+E:\Aplicacion\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+E:\Aplicacion\DataLibrary\obj\Debug\DataLibrary.dll
+E:\Aplicacion\DataLibrary\obj\Debug\DataLibrary.pdb

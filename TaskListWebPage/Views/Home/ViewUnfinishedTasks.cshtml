@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TaskListWebPage.Models.TaskModel>
+
+@{
+    ViewBag.Title = "ViewUnfinishedTasks";
+}
+
+<h2>ViewUnfinishedTasks</h2>
+
+<p>
+    @Html.ActionLink("Add New", "AddTask")|
+    @Html.ActionLink("All", "ViewTasks", "Home")|
+    @Html.ActionLink("Completed", "ViewCompletedTasks", "Home")|
+    @Html.ActionLink("Unfinished", "ViewUnfinishedTasks", "Home")|
+    @Html.ActionLink("Clear Completed", "ClearCompletedTasks", "Home")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TaskName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaskCompleted)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TaskName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TaskCompleted)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,6 @@
+E:\Aplicacion\MVCDemoDB\bin\Debug\MVCDemoDB.dacpac
+E:\Aplicacion\MVCDemoDB\bin\Debug\MVCDemoDB.dll
+E:\Aplicacion\MVCDemoDB\bin\Debug\MVCDemoDB.pdb
+E:\Aplicacion\MVCDemoDB\obj\Debug\MVCDemoDB.sqlprojAssemblyReference.cache
+E:\Aplicacion\MVCDemoDB\obj\Debug\MVCDemoDB.dll
+E:\Aplicacion\MVCDemoDB\obj\Debug\MVCDemoDB.pdb
